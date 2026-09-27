@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- HEADER WAVE UI BANNER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0:00F5D4,25:00BBF9,50:4361EE,75:7209B7,100:F72585&height=220&section=header&text=Ancil%20Ouseppachen&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Aspiring%20DevOps%20Engineer%20%7C%20Cloud%2C%20Linux%20%26%20Automation&descAlignY=58&descAlign=50" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0:00F5D4,25:00BBF9,50:4361EE,75:7209B7,100:F72585&height=220&section=header&text=Ancil%20Ouseppachen&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Aspiring%20DevOps%20Engineer%20%7C%20Cloud%2C%20Linux%20and%20Automation&descAlignY=58&descAlign=50" width="100%"/>
 
 <!-- DYNAMIC TYPING TERMINAL -->
 <a href="https://github.com/root-whoami">
@@ -133,12 +133,12 @@ A progressive 7-phase lab curriculum designed to demonstrate end-to-end cloud an
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=root-whoami&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="root-whoami GitHub Stats" width="48%" />
+<img src="https://github-readme-stats-fast.vercel.app/api?username=root-whoami&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="root-whoami GitHub Stats" width="48%" />
 <img src="https://streak-stats.demolab.com/?user=root-whoami&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="48%" />
 
 <br/><br/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=root-whoami&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" width="60%" />
+<img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=root-whoami&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" width="60%" />
 
 </div>
 
