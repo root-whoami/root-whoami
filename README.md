@@ -1,179 +1,115 @@
-<div align="center">
+# Ancil Ouseppachen
 
-<!-- HERO BANNER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0:0B132B,25:1C2541,50:3A506B,75:0077B6,100:00B4D8&height=230&section=header&text=Ancil%20Ouseppachen&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Aspiring%20DevOps%20Engineer%20%7C%20Cloud%2C%20Linux%20%26%20Infrastructure%20Automation&descAlignY=58&descAlign=50" width="100%"/>
+### Aspiring DevOps & Cloud Infrastructure Engineer
+**Linux** &bull; **Python** &bull; **Bash** &bull; **AWS** &bull; **Cloud Automation** &bull; **Infrastructure as Code**
 
-<!-- DYNAMIC TYPING TERMINAL -->
-<a href="https://github.com/root-whoami">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=1200&color=00B4D8&center=true&vCenter=true&width=680&lines=echo+%22Welcome+to+my+Engineering+Portfolio%22;Aspiring+DevOps+%26+Cloud+Infrastructure+Engineer;Linux+Administration+%7C+Python+%7C+Bash+%7C+AWS;Automating+Reliable%2C+Secure+Cloud+Workflows" alt="Typing SVG" />
-</a>
-
-<p align="center">
-  <b>Computer Science Graduate</b> dedicated to mastering <b>Cloud Infrastructure</b>, <b>Linux Systems Administration</b>, and <b>DevOps Automation</b>.
-</p>
-
-<!-- EXECUTIVE QUICK LINKS -->
-<p align="center">
-  <a href="#-executive-summary"><img src="https://img.shields.io/badge/Overview-0B132B?style=for-the-badge&logo=target&logoColor=00B4D8" alt="Overview"/></a>
-  <a href="#-core-competencies"><img src="https://img.shields.io/badge/Competencies-1C2541?style=for-the-badge&logo=codeforces&logoColor=00B4D8" alt="Competencies"/></a>
-  <a href="#-engineering-principles"><img src="https://img.shields.io/badge/Principles-3A506B?style=for-the-badge&logo=shield&logoColor=00B4D8" alt="Principles"/></a>
-  <a href="#-flagship-project-aws-iam-user-automation"><img src="https://img.shields.io/badge/Flagship_Project-0077B6?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="Project"/></a>
-  <a href="#-devops-portfolio-roadmap"><img src="https://img.shields.io/badge/Roadmap-00B4D8?style=for-the-badge&logo=git&logoColor=black" alt="Roadmap"/></a>
-  <a href="#-connect--collaboration"><img src="https://img.shields.io/badge/Contact-5BC0BE?style=for-the-badge&logo=gmail&logoColor=black" alt="Contact"/></a>
-</p>
-
-</div>
+[![Status: Seeking Entry-Level DevOps Roles](https://img.shields.io/badge/Status-Seeking_Entry--Level_DevOps_Roles-0969da?style=flat-square)](https://github.com/root-whoami)
+[![Focus: Cloud Automation & Systems](https://img.shields.io/badge/Focus-Cloud_Automation_&_Linux_Systems-2da44e?style=flat-square)](https://github.com/root-whoami)
+[![GitHub](https://img.shields.io/badge/GitHub-root--whoami-24292f?style=flat-square&logo=github)](https://github.com/root-whoami)
 
 ---
 
-## 📋 Executive Summary
+## Profile Overview
 
-I am an entry-level DevOps engineer with a strong foundation in computer science, software engineering, and systems administration. My engineering focus centers on writing clean, repeatable automation scripts in **Python** and **Bash**, managing and hardening **Linux environments**, and provisioning scalable cloud infrastructure on **AWS**.
+I am an entry-level DevOps engineer with a degree in Computer Science, focused on **Linux systems administration**, **Python and Bash automation**, and **AWS cloud infrastructure**. My engineering approach emphasizes security-first principles, idempotent automation, and declarative workflows.
 
-I treat infrastructure, automation scripts, and operational documentation with the same rigor as production application code: version-controlled, tested, idempotent, and secured with least-privilege policies.
+I build reproducible lab environments and automation scripts designed to solve concrete operational challenges—from batch IAM provisioning and credential hardening to automated systems monitoring and cloud networking.
 
 ---
 
-## ⚙️ Profile Configuration (`whoami.json`)
+## Core Technical Competencies
 
-```json
-{
-  "engineer": "Ancil Ouseppachen",
-  "handle": "root-whoami",
-  "discipline": "DevOps & Cloud Operations",
-  "target_roles": ["Entry-Level DevOps Engineer", "Cloud Associate", "Site Reliability Engineer (L1)"],
-  "primary_languages": ["Python", "Bash", "Java", "C"],
-  "cloud_platform": "Amazon Web Services (AWS)",
-  "active_learning": ["Docker Containerization", "Kubernetes Orchestration", "Terraform IaC"],
-  "standards": ["Least Privilege (IAM)", "POSIX Security (chmod 600)", "Idempotent Scripting"]
-}
+| Domain | Technologies & Tooling | Focus & Practical Application |
+| :--- | :--- | :--- |
+| **Cloud Infrastructure** | **Amazon Web Services (AWS)** | Identity and Access Management (IAM), AWS STS, Virtual Private Cloud (VPC), EC2, S3, Security Groups, Route Tables |
+| **Operating Systems & Shell** | **Linux (Ubuntu, Debian), Bash** | POSIX shell scripting, systemd service management, process auditing, SSH hardening, file permissions (`chmod`, `chown`) |
+| **Programming & Automation** | **Python 3, Java, C** | Terminal automation, API integration, data sanitization, CLI scripting, foundational algorithms |
+| **Actively Learning** | **Docker, Kubernetes, Terraform** | Container lifecycle & multi-stage builds, Pod/Deployment manifests, HCL modular infrastructure |
+| **Version Control & Workflows** | **Git, GitHub** | Conventional commits, branch management, repository hygiene, security scanning, `.gitignore` policy |
+| **Web Foundations** | **HTML5, CSS3, JavaScript** | Web fundamentals, RESTful architecture concepts, client-server communication |
+
+---
+
+## Engineering Standards & Practices
+
+* **Least Privilege Access:** Enforce granular IAM policies with explicit resource constraints; avoid administrative wildcards (`*`).
+* **Idempotent Automation:** Author automation scripts that evaluate state before mutating resources to prevent duplicate entities or execution failures.
+* **Credential Hygiene:** Zero credentials in version control. Sensitive local outputs are restricted using POSIX permissions (`chmod 600`), and all console credentials require mandatory initial rotation (`--password-reset-required`).
+* **Documentation as a Deliverable:** Every repository contains full architectural diagrams, least-privilege policy definitions, step-by-step reproduction commands, and cost-preventing teardown procedures.
+
+---
+
+## Featured Engineering Project
+
+### 🔐 [aws-iam-user-automation](https://github.com/root-whoami/aws-iam-user-automation)
+> **Automated AWS IAM User Provisioning, Group Management, and Credential Security**
+
+A production-style Bash automation utility utilizing the **AWS CLI v2** to batch-provision IAM users, enforce password complexity and rotation policies, assign users to functional IAM groups, and protect temporary credentials locally.
+
+#### Architecture Workflow
+
+```mermaid
+flowchart TD
+    A[Start: ./create_users.sh] --> B[check_prerequisites: aws-cli, openssl, sts]
+    B --> C{Authenticated to AWS?}
+    C -->|No| C1[Exit 1: Prompt aws configure]
+    C -->|Yes| D[get_usernames: Interactive Prompt with Regex Whitelist]
+    D --> E[ensure_group_exists: Idempotently Verify or Create Group]
+    E --> F[Initialize users_passwords.txt with chmod 600]
+    F --> G[Loop: Process Each Username]
+    
+    subgraph Provisioning [User Provisioning Engine]
+        G --> H{User Exists in IAM?}
+        H -->|Yes| H1[Log Warning & Skip to Next]
+        H -->|No| I[aws iam create-user]
+        I --> J[Generate Cryptographic Password via OpenSSL]
+        J --> K[aws iam create-login-profile --password-reset-required]
+        K --> L[aws iam add-user-to-group --group-name Developers]
+        L --> M[Append Formatted Credentials to Protected File]
+    end
+
+    H1 --> N[Next User / Summary]
+    M --> N
+    N --> O[Display Execution Summary: Created / Existed / Failed]
+    O --> P[End Execution]
 ```
 
----
-
-## 🛠️ Core Competencies
-
-<div align="center">
-
-### Modern Technology Ecosystem
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=linux,bash,aws,python,java,c,docker,kubernetes,terraform,git,github,vscode,html,css,js&perline=8&theme=dark" alt="Skill Icons" />
-  </a>
-</p>
-
-</div>
-
-### Structured Technical Matrix
-
-| Domain | Core Technologies & Tools | Competency Level |
-| :--- | :--- | :---: |
-| **Cloud Infrastructure** | **AWS:** IAM, STS, VPC, EC2, S3, Security Groups, Route Tables | Hands-on Labs & Automation |
-| **Operating Systems** | **Linux:** Process management, systemd, user administration, SSH, POSIX shell | Foundational & Practical |
-| **Scripting & Automation** | **Bash, Python 3:** Terminal automation, regex sanitization, API scripting | Intermediate / Active |
-| **Containers & IaC** | **Docker, Kubernetes, Terraform:** Microservice packaging, pod manifests, HCL | Actively Learning |
-| **Software Development** | **Java, C, Git, GitHub:** Version control, data structures, modular logic | Academic & Foundational |
-| **Web Technologies** | **HTML5, CSS3, JavaScript:** Front-end structures, web standards | Academic Foundational |
+* **Core Highlights:** Input validation via regex whitelist (`^[a-zA-Z0-9+=,.@-]{1,64}$`), duplicate rejection, idempotent group and user checks, OpenSSL random passwords, forced first-login password reset, and restricted `chmod 600` file output.
+* **Documentation:** [README](https://github.com/root-whoami/aws-iam-user-automation/blob/main/README.md) &bull; [Architecture Design](https://github.com/root-whoami/aws-iam-user-automation/blob/main/docs/architecture.md) &bull; [Script Source](https://github.com/root-whoami/aws-iam-user-automation/blob/main/create_users.sh)
 
 ---
 
-## 🛡️ Engineering Principles & Standards
+## DevOps Portfolio Roadmap
 
-| Standard | Implementation in Practice |
-| :--- | :--- |
-| **Least Privilege by Default** | Grant zero wildcard (`*`) access. Every IAM policy is hand-crafted with strict resource ARNs and minimal action sets. |
-| **Idempotency** | Automated scripts evaluate state before mutating infrastructure to prevent duplicate creation errors or orphan resources. |
-| **Defense-in-Depth** | Enforce POSIX file permission lockdowns (`chmod 600`), strict multi-layer `.gitignore` patterns, and mandatory initial password rotation. |
-| **Declarative Infrastructure** | Progressively advancing from imperative shell automations to declarative Docker containers and Terraform modules. |
-| **Documentation Integrity** | Every lab includes architectural workflows, exact reproduction steps, sanitized outputs, and cost-preventing teardown guides. |
+A progressive 7-phase lab curriculum designed to demonstrate end-to-end cloud and systems engineering competency:
 
----
-
-## ⭐ Flagship Project: `aws-iam-user-automation`
-
-<div align="center">
-
-### 🔐 [AWS IAM User Automation & Credential Security](https://github.com/root-whoami/aws-iam-user-automation)
-*An enterprise-style Bash & AWS CLI v2 automation utility for batch user provisioning, access control, and credential hygiene.*
-
-<p align="center">
-  <img src="https://img.shields.io/badge/AWS_CLI_v2-232F3E?style=flat-square&logo=amazon-aws&logoColor=white" alt="AWS"/>
-  <img src="https://img.shields.io/badge/Bash_Automation-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white" alt="Bash"/>
-  <img src="https://img.shields.io/badge/OpenSSL_Crypto-7B2CBF?style=flat-square&logo=shield&logoColor=white" alt="OpenSSL"/>
-  <img src="https://img.shields.io/badge/POSIX_Security-chmod_600-00B4D8?style=flat-square&logo=linux&logoColor=white" alt="Security"/>
-  <img src="https://img.shields.io/badge/Idempotent-Verified-success?style=flat-square" alt="Idempotent"/>
-</p>
-
-</div>
-
-```text
-  [ Script Execution Lifecycle ]
-  ├── 1. check_prerequisites() ──> Verifies aws-cli v2, openssl, and active AWS STS authentication
-  ├── 2. ensure_group_exists() ──> Idempotently verifies or provisions the 'Developers' IAM group
-  ├── 3. get_usernames()       ──> Sanitizes input (rejects duplicates & non-conforming characters)
-  ├── 4. process_user()        ──> Skips existing IAM users; provisions new accounts
-  ├── 5. generate_password()   ──> Generates cryptographically secure temporary passwords via OpenSSL
-  ├── 6. enforce_policy()      ──> Enforces --password-reset-required on first Management Console login
-  └── 7. secure_sink()         ──> Writes output to users_passwords.txt locked with chmod 600
-```
-
-* **The Problem:** Manual creation of developer IAM accounts via the AWS Console is slow, inconsistent, and often results in weak shared credentials.
-* **The Solution:** An automated, idempotent terminal script that provisions users in bulk, enforces password complexity, forces rotation upon sign-in, and guarantees zero credential leaks in git.
-* 📂 **Explore Repository & Architecture:** [https://github.com/root-whoami/aws-iam-user-automation](https://github.com/root-whoami/aws-iam-user-automation)
-
----
-
-## 🗺️ DevOps Portfolio Roadmap
-
-A progressive 7-phase curriculum demonstrating practical mastery across modern infrastructure disciplines:
-
-| Phase | Project Lab | Core Focus & Topics | Status |
+| Phase | Repository / Lab | Primary Competencies | Status |
 | :---: | :--- | :--- | :---: |
-| **01** | [**`aws-iam-user-automation`**](https://github.com/root-whoami/aws-iam-user-automation) | AWS IAM API, Bash automation, OpenSSL, input validation | ![Completed](https://img.shields.io/badge/Status-Completed-success?style=flat-square) |
-| **02** | `linux-server-admin-labs` | User permissions, systemd unit files, process auditing & SSH hardening | ![Up Next](https://img.shields.io/badge/Status-Up_Next-0077B6?style=flat-square) |
-| **03** | `aws-vpc-infrastructure-lab` | Multi-AZ VPC, Public/Private subnets, Internet/NAT Gateways, Route tables | ![Planned](https://img.shields.io/badge/Status-Planned-lightgrey?style=flat-square) |
-| **04** | `dockerized-web-app` | Multi-stage Docker builds, non-root execution, Docker Compose networks | ![Planned](https://img.shields.io/badge/Status-Planned-lightgrey?style=flat-square) |
-| **05** | `terraform-aws-infrastructure` | Modular IaC, S3 remote state locking, DynamoDB, AWS resource outputs | ![Planned](https://img.shields.io/badge/Status-Planned-lightgrey?style=flat-square) |
-| **06** | `ci-cd-pipeline-lab` | GitHub Actions automated linting, test runners, build gates & AWS deployment | ![Planned](https://img.shields.io/badge/Status-Planned-lightgrey?style=flat-square) |
-| **07** | `kubernetes-deployment-lab` | Declarative YAML, Deployments, ClusterIP/NodePort Services, ConfigMaps | ![Planned](https://img.shields.io/badge/Status-Planned-lightgrey?style=flat-square) |
+| **01** | [**`aws-iam-user-automation`**](https://github.com/root-whoami/aws-iam-user-automation) | AWS IAM API, Bash automation, OpenSSL, input validation, credential hygiene | **Completed** |
+| **02** | `linux-server-admin-labs` | User/group permissions, systemd service units, process monitoring, SSH hardening | **Up Next** |
+| **03** | `aws-vpc-infrastructure-lab` | Multi-AZ VPC, Public/Private subnets, Internet Gateway, NAT Gateway, Route tables | Planned |
+| **04** | `dockerized-web-app` | Multi-stage Docker builds, non-root execution, container networking, Compose | Planned |
+| **05** | `terraform-aws-infrastructure` | Infrastructure as Code, S3 remote state locking, DynamoDB, modular resources | Planned |
+| **06** | `ci-cd-pipeline-lab` | GitHub Actions workflow, automated linting, test runners, AWS deployment | Planned |
+| **07** | `kubernetes-deployment-lab` | Declarative YAML, Deployments, ClusterIP/NodePort Services, ConfigMaps, Secrets | Planned |
 
 ---
 
-## 📊 Engineering Activity & Metrics
+## GitHub Analytics
 
 <div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=root-whoami&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="root-whoami GitHub Stats" width="48%" />
-<img src="https://streak-stats.demolab.com/?user=root-whoami&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="48%" />
-
-<br/><br/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=root-whoami&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" width="58%" />
-
+  <img src="https://github-readme-stats.vercel.app/api?username=root-whoami&show_icons=true&theme=github_dark&hide_border=true&count_private=true" alt="root-whoami GitHub Stats" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=root-whoami&layout=compact&theme=github_dark&hide_border=true" alt="Top Languages" width="48%" />
 </div>
 
 <p align="center">
-  <sub><i>Note: Language statistics reflect repository code composition across public GitHub repositories, not personal proficiency.</i></sub>
+  <sub><i>Note: Language statistics reflect codebase composition across public GitHub repositories, not personal proficiency levels.</i></sub>
 </p>
 
 ---
 
-## 📬 Connect & Collaboration
+## Professional Contact & Links
 
-<div align="center">
-
-[![GitHub](https://img.shields.io/badge/GitHub-root--whoami-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/root-whoami)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://github.com/root-whoami)
-[![Email](https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](https://github.com/root-whoami)
-
-*(Placeholders: LinkedIn and Email will be linked directly to your verified contact channels upon update)*
-
-</div>
-
-<br/>
-
-<!-- FOOTER WAVE -->
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0:0B132B,25:1C2541,50:3A506B,75:0077B6,100:00B4D8&height=110&section=footer" width="100%"/>
-  <sub>Crafted with engineering rigor, continuous learning, and clean documentation.</sub>
-</div>
+* **GitHub:** [https://github.com/root-whoami](https://github.com/root-whoami)
+* **LinkedIn:** `[Add LinkedIn Profile]` *(Placeholder — to be updated with verified link)*
+* **Professional Email:** `[Add Verified Professional Email]` *(Placeholder — to be updated with verified email)*
